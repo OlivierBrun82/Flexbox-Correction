@@ -1,0 +1,76 @@
+.BoxContainer {
+    width: 100%;
+    padding: 20px;
+    /* height: 200px; */
+}
+
+.blueBackground {
+    background-color: blue;
+}
+
+.greenBackground {
+    background-color: green;
+}
+
+.BoxContainer > div{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    margin: 5px;
+}
+.flex1 {
+    display: flex;
+}
+
+.flex2 {
+    display: flex;
+    justify-content: center;
+}
+
+.flex3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+
+}
+.flex5 {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.flex6 {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.flex7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.flex8 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.BoxContainer > div > div {
+    display: flex;
+    background-color: yellow;
+    width: 20%;
+    margin: 5%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
